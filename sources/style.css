@@ -1,0 +1,52 @@
+:root {
+  --creamygrad: linear-gradient(
+    to left,
+    rgba(235, 233, 221, 1) 0%,
+    rgba(247, 235, 209, 1) 100%
+  );
+  --bluegrad: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 0.7) 0%,
+    rgba(2, 83, 185, 0.7) 100%
+  );
+
+  --blueisch3dgrad: radial-gradient(
+    circle,
+    #69a4f7,
+    #649cea,
+    #6094dd,
+    #5b8cd1,
+    #5784c4,
+    #4e7cbf,
+    #4675ba,
+    #3d6db5,
+    #2f63b6,
+    #2359b6,
+    #194eb5,
+    #1642b3
+  );
+}
+
+body {
+  background-image: url("/images/tools-for-motivation-KvTOwKoji7g-unsplash.jpg");
+}
+
+h5 {
+  font-family: "Exo", sans-serif;
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 66px;
+  color: orangered !important;
+  text-shadow: 1px 1px #558abb;
+}
+
+.headercard {
+  background: rgb(220, 240, 247);
+  border-width: 3px;
+  border-color: rgb(0, 51, 153);
+  display: block;
+  margin: 5%;
+}
+
+p {
+  color: rgb(0, 51, 153);
+}
