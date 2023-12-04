@@ -30,6 +30,9 @@
 body {
   background-image: url("/images/tools-for-motivation-KvTOwKoji7g-unsplash.jpg");
 }
+.logo {
+  width: 2%;
+}
 
 h5 {
   font-family: "Exo", sans-serif;
@@ -49,4 +52,12 @@ h5 {
 
 p {
   color: rgb(0, 51, 153);
+}
+
+hr {
+  border: 2px dashed #999;
+  height: 55px;
+  background-image: url("/images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: 2%;
 }
