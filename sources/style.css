@@ -31,7 +31,10 @@ body {
   background-image: url("/images/tools-for-motivation-KvTOwKoji7g-unsplash.jpg");
 }
 .logo {
-  width: 2%;
+  width: 10%;
+}
+.shortdesc {
+  margin-top: 15px;
 }
 
 h5 {
@@ -47,17 +50,12 @@ h5 {
   border-width: 3px;
   border-color: rgb(0, 51, 153);
   display: block;
-  margin: 5%;
+
+  margin: 5% 33%;
+  border-radius: 2%;
+  padding: 20px 100px;
 }
 
 p {
   color: rgb(0, 51, 153);
-}
-
-hr {
-  border: 2px dashed #999;
-  height: 55px;
-  background-image: url("/images/logo.svg");
-  background-repeat: no-repeat;
-  background-size: 2%;
 }
