@@ -55,7 +55,7 @@ h4 {
 
 .headercard,
 .headerprojects {
-  background: rgb(220, 240, 247);
+  background: rgb(220, 240, 247, 0.8);
   border-width: 3px;
   border-color: var(--basicblue);
   display: block;
@@ -67,7 +67,7 @@ h4 {
 }
 
 .projectcard {
-  background: rgb(220, 240, 247);
+  background: rgb(220, 240, 247, 0.8);
   border-width: 3px;
   border-color: var(--basicblue);
   display: block;
