@@ -25,6 +25,7 @@
     #194eb5,
     #1642b3
   );
+  --basicblue: rgb(0, 51, 153);
 }
 
 body {
@@ -48,14 +49,13 @@ h5 {
 .headercard {
   background: rgb(220, 240, 247);
   border-width: 3px;
-  border-color: rgb(0, 51, 153);
+  border-color: var(--basicblue);
   display: block;
-
   margin: 5% 33%;
   border-radius: 2%;
   padding: 20px 100px;
 }
 
 p {
-  color: rgb(0, 51, 153);
+  color: var(--basicblue);
 }
