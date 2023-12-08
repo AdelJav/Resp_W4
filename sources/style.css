@@ -32,30 +32,55 @@ body {
   background-image: url("/images/tools-for-motivation-KvTOwKoji7g-unsplash.jpg");
 }
 .logo {
-  width: 10%;
+  width: 3%;
 }
 .shortdesc {
   margin-top: 15px;
 }
 
 h5 {
-  font-family: "Exo", sans-serif;
   font-family: "Lovers Quarrel", cursive;
   font-size: 66px;
   color: orangered !important;
   text-shadow: 1px 1px #558abb;
 }
 
-.headercard {
+h4 {
+  font-family: "Exo", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  color: var(--basicblue) !important;
+  text-shadow: 1px 1px orangered;
+}
+
+.headercard,
+.headerprojects {
   background: rgb(220, 240, 247);
   border-width: 3px;
   border-color: var(--basicblue);
   display: block;
-  margin: 5% 33%;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70%;
   border-radius: 2%;
   padding: 20px 100px;
 }
 
+.projectcard {
+  background: rgb(220, 240, 247);
+  border-width: 3px;
+  border-color: var(--basicblue);
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70%;
+  border-radius: 2%;
+}
+
+.projectimage {
+  padding: 10px;
+}
 p {
   color: var(--basicblue);
+  font-family: "Exo", sans-serif;
 }
