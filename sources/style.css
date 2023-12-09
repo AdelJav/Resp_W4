@@ -66,7 +66,6 @@ h4 {
   border-width: 3px;
   display: block;
   margin: 0 auto;
-
   font-family: "Exo", sans-serif;
   font-style: italic;
   font-size: 17px;
@@ -74,6 +73,14 @@ h4 {
   text-align: center;
   text-shadow: 1px 1px orangered;
   width: 15%;
+}
+
+h6 {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 50px;
+  color: orangered !important;
+  text-shadow: 1px 1px #558abb;
+  margin-top: 10px;
 }
 
 .headercard {
@@ -100,13 +107,34 @@ h4 {
   margin: 0 auto;
   margin-top: 20px;
   width: 70%;
-  border-radius: 2%;
+  border-radius: 50% 20% / 10% 40%;
 }
 
 .projectimage {
-  padding: 10px;
+  margin-top: 7%;
+  margin-left: 2%;
+
+  border-radius: 2%;
+  width: 90%;
 }
+
+.project1-link {
+  color: orangered;
+  display: block;
+  font-family: "Exo", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.link-div {
+  margin-bottom: 5px;
+}
+
 p {
   color: var(--basicblue);
   font-family: "Exo", sans-serif;
+}
+
+.row {
+  margin-bottom: 30px;
 }
