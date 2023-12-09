@@ -34,6 +34,18 @@ body {
 .logo {
   width: 3%;
 }
+
+.happycoder {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 25%;
+}
+
+.button1 {
+  background-color: var(--basicblue);
+}
+
 .shortdesc {
   margin-top: 15px;
 }
@@ -61,8 +73,9 @@ h4 {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  width: 70%;
-  border-radius: 2%;
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
   padding: 20px 100px;
 }
 
