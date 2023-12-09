@@ -84,10 +84,6 @@ h6 {
   margin-top: 10px;
 }
 
-.logo-div {
-  color: red;
-}
-
 .headercard {
   background: rgb(220, 240, 247, 0.8);
   border-width: 3px;
@@ -95,7 +91,7 @@ h6 {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  border-radius: 100%;
+  border-radius: 50%;
   height: 500px;
   width: 500px;
   padding: 20px 100px;
@@ -108,7 +104,7 @@ h6 {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  width: 95%;
+  width: 98%;
   border-radius: 50% 20% / 10% 40%;
 }
 
@@ -138,4 +134,33 @@ p {
 
 .row {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .headercard {
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 370px;
+    width: 370px;
+    padding: 10px 10px;
+  }
+
+  h5 {
+    font-size: 45px;
+    margin-top: 15px;
+  }
+
+  .logo {
+    width: 5%;
+  }
+
+  .happycoder {
+    margin-bottom: 5px;
+    width: 30%;
+  }
+
+  h4 {
+    padding: 5px;
+    width: 50%;
+  }
 }
