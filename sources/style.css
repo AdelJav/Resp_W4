@@ -214,6 +214,42 @@ p {
   color: var(--basicblue);
 }
 
+nav {
+  background-color: rgb(220, 240, 247, 0.8);
+  padding: 15px;
+  border-bottom: solid var(--basicblue) 3px;
+}
+
+nav .logo_nav {
+  max-height: 40px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--basicblue);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: orangered;
+  text-shadow: 1px 1px var(--basicblue);
+}
+
 @media screen and (max-width: 600px) {
   .headercard {
     margin-top: 20px;
