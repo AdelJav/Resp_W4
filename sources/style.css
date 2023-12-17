@@ -245,9 +245,24 @@ nav a {
 }
 
 nav a:hover,
-nav li.active a {
+nav li.active a,
+footer a:hover {
   color: orangered;
   text-shadow: 1px 1px var(--basicblue);
+}
+
+footer {
+  background-color: rgb(220, 240, 247, 0.8);
+  padding: 15px;
+  border-top: solid var(--basicblue) 3px;
+}
+
+footer a {
+  color: var(--basicblue);
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
 }
 
 @media screen and (max-width: 600px) {
