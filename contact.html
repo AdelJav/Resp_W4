@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Adela Javorska is a fron-end developer. Feel free to contact her via contacts as stated here."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,26 +34,48 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/sources/style.css" />
-    <title>Adela Javorska - homepage</title>
+    <title>Adela Javorska - Contact page</title>
     <meta
       name="description"
       content="Homepage of Adela Javorska, a front-end developer, based in Vienna."
     />
   </head>
   <body>
-    <div class="card text-center mb-3 headercard">
+    <nav class="d-flex justify-content-between mb-5">
+      <img src="/images/logo.svg" class="logo_nav" alt="Adela's logo" />
+      <ul>
+        <li><a href="/" title="Adela's homegape">Home</a></li>
+        <li>
+          <a href="/about.html" title="About Adela Page">About</a>
+        </li>
+        <li><a href="/work.html" title="Adela's Work">Work</a></li>
+        <li class="active">
+          <a href="/contact.html" title="Adela's Contacts">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="card text-center headercard">
       <div class="card-body">
         <h5 class="card-title">Let's get in touch</h5>
-        <img src="/images/logo.svg" alt="logo" class="logo" />
+        <img src="/images/logo.svg" alt="Adela's logo" class="logo" />
         <img
           src="/images/undraw_mailbox_re_dvds.svg"
           class="happycoder mt-5 mb-5"
           alt="mailbox"
         />
-        <a href="mailto:adeljavorska@gmail.com" class="email"
+        <a
+          href="mailto:adeljavorska@gmail.com"
+          class="email"
+          title="Adela's email"
           >adeljavorska@gmail.com</a
         >
       </div>
     </div>
+    <footer class="mt-5">
+      <a href="mailto:adeljavorska@gmail.com" title="Adela's email"
+        >adeljavorska@gmail.com</a
+      >
+    </footer>
   </body>
 </html>

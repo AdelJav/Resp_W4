@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Adela Javorska - a front-end developer. Here you can find a basic information about Adela."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,7 +34,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/sources/style.css" />
-    <title>Adela Javorska - homepage</title>
+    <title>Adela Javorska - About me</title>
     <meta
       name="description"
       content="Homepage of Adela Javorska, a front-end developer, based in Vienna."
@@ -38,26 +42,32 @@
   </head>
   <body>
     <nav class="d-flex justify-content-between mb-3">
-      <img src="/images/logo.svg" class="logo_nav" alt="logo" />
+      <img src="/images/logo.svg" class="logo_nav" alt="Adela's logo" />
       <ul>
-        <li><a href="/">Home</a></li>
-        <li class="active"><a href="/about.html">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/" title="Adela's homegape">Home</a></li>
+        <li class="active">
+          <a href="/about.html" title="About Adela Page">About</a>
+        </li>
+        <li><a href="/work.html" title="Adela's Work">Work</a></li>
+        <li><a href="/contact.html" title="Adela's Contacts">Contact</a></li>
       </ul>
     </nav>
 
     <div class="row">
       <div class="col-sm-6 aboutcard">
         <h5 class="card-title">Adela Javorska</h5>
-        <img src="/images/logo.svg" alt="logo" class="logo_about" />
+        <img src="/images/logo.svg" alt="Adela's logo" class="logo_about" />
         <p class="card-text shortdesc">
           I can help you using my knowledge of programming languages to code
           user-side applications, including visual elements like menu bars,
           clickable buttons and the overall layout of websites or web
           applications.
         </p>
-        <a href="#" class="btn btn-primary button1">
+        <a
+          href="/work.html"
+          class="btn btn-primary button1"
+          title="Check Adela's projects"
+        >
           <i class="fa-solid fa-hamsa fa-fade"></i> Check my projects
           <i class="fa-solid fa-hamsa fa-fade"></i
         ></a>
@@ -73,7 +83,9 @@
     </div>
 
     <footer>
-      <a href="mailto:adeljavorska@gmail.com">adeljavorska@gmail.com</a>
+      <a href="mailto:adeljavorska@gmail.com" title="Adela's email"
+        >adeljavorska@gmail.com</a
+      >
     </footer>
   </body>
 </html>

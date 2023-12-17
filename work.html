@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Adela Javorska, a front-end developer lists her previous projects."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,13 +34,26 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/sources/style.css" />
-    <title>Adela Javorska - homepage</title>
+    <title>Adela Javorska - Projects</title>
     <meta
       name="description"
       content="Homepage of Adela Javorska, a front-end developer, based in Vienna."
     />
   </head>
   <body>
+    <nav class="d-flex justify-content-between mb-3">
+      <img src="/images/logo.svg" class="logo_nav" alt="Adela's logo" />
+      <ul>
+        <li><a href="/" title="Adela's homegape">Home</a></li>
+        <li>
+          <a href="/about.html" title="About Adela Page">About</a>
+        </li>
+        <li class="active">
+          <a href="/work.html" title="Adela's Work">Work</a>
+        </li>
+        <li><a href="/contact.html" title="Adela's Contacts">Contact</a></li>
+      </ul>
+    </nav>
     <div>
       <h4 class="headerprojects2">Have a look at my previous projects</h4>
       <div class="row">
@@ -55,7 +72,11 @@
               </p>
             </div>
             <div class="card-body link-div">
-              <a href="#" class="card-link project1-link"
+              <a
+                href="https://incomparable-toffee-75917e.netlify.app"
+                target="_blank"
+                class="card-link project1-link"
+                title="Link to Adela's projects"
                 >Link to this project</a
               >
             </div>
@@ -77,7 +98,11 @@
               </p>
             </div>
             <div class="card-body link-div">
-              <a href="#" class="card-link project1-link"
+              <a
+                href="https://incomparable-toffee-75917e.netlify.app"
+                target="_blank"
+                class="card-link project1-link"
+                title="Link to Adela's projects"
                 >Link to this project</a
               >
             </div>
@@ -85,5 +110,10 @@
         </div>
       </div>
     </div>
+    <footer>
+      <a href="mailto:adeljavorska@gmail.com" title="Adela's email"
+        >adeljavorska@gmail.com</a
+      >
+    </footer>
   </body>
 </html>
