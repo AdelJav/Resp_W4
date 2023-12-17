@@ -193,6 +193,10 @@ p {
   margin-bottom: 30px;
 }
 
+.email {
+  color: var(--basicblue);
+}
+
 @media screen and (max-width: 600px) {
   .headercard {
     margin-top: 20px;
