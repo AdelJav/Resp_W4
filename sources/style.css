@@ -30,7 +30,9 @@
 
 body {
   background-image: url("/images/tools-for-motivation-KvTOwKoji7g-unsplash.jpg");
+  background-size: cover;
 }
+
 .logo {
   width: 10%;
 }
@@ -255,6 +257,9 @@ footer {
   background-color: rgb(220, 240, 247, 0.8);
   padding: 15px;
   border-top: solid var(--basicblue) 3px;
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
 }
 
 footer a {
