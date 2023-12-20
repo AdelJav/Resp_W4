@@ -104,7 +104,8 @@ h6 {
   margin-top: 10px;
 }
 
-.headercard {
+.headercard,
+.contactcard {
   background: rgb(220, 240, 247, 0.8);
   border-width: 3px;
   border-color: var(--basicblue);
@@ -308,5 +309,9 @@ footer a {
 
   .headerprojects2 {
     width: 80%;
+  }
+
+  .contactcard {
+    margin-bottom: 130px;
   }
 }
